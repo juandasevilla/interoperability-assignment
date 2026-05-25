@@ -85,7 +85,7 @@ export const App = () => {
       .then(() => {
         setShowDeleteModal(false);
         setCategoryToDelete(null);
-        getCategories();
+        //getCategories();
       })
       .catch((error) => console.error(error));
   };
